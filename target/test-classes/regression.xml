@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Full regression suit">
+    <test name="Parallel_3_threads_tests" parallel="methods" thread-count="3">
+        <classes>
+            <class name="MathoperationsTest"/>
+        </classes>
+    </test>
+    <test name="Sequential_tests">
+        <classes>
+            <class name="StringHomeTest"/>
+        </classes>
+    </test>
+</suite>

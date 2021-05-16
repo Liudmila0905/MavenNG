@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 1.993 sec <<< FAILURE!
+testEqual2(MathoperationsTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at MathoperationsTest.testEqual2(MathoperationsTest.java:67)
+
+testMax1(MathoperationsTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [17] but found [15]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at MathoperationsTest.testMax1(MathoperationsTest.java:41)
+
+testMin1(MathoperationsTest)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: expected [-9] but found [-98]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at MathoperationsTest.testMin1(MathoperationsTest.java:83)
+
+testSquareRoot1(MathoperationsTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [12.0] but found [11.832159566199232]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at MathoperationsTest.testSquareRoot1(MathoperationsTest.java:98)
+
+testFormat1(StringHomeTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: Format is wrong, expected isDreamscometrue11 expected [Dreamscometrue11] but found [Dreamscometrue]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at StringHomeTest.testFormat1(StringHomeTest.java:16)
+
